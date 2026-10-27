@@ -1,0 +1,22 @@
+# Archivos generados al compilar (se vuelven a crear con flutter pub get / build)
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+android/.gradle/
+android/.kotlin/
+android/local.properties
+windows/flutter/ephemeral/
+
+# Llave de firma y contraseñas: nunca se suben al repositorio
+android/key.properties
+*.jks
+*.keystore
+
+# Registros y capturas de pruebas locales
+registro_*.txt
+pasos.txt
+capturas/

@@ -1,0 +1,46 @@
+# ============================================================
+#  GastoFácil - Control de gastos e ingresos personales
+#  Archivo de configuración del proyecto Flutter.
+#  Aquí se declaran el nombre, la versión y las librerías
+#  (paquetes) que usa la aplicación.
+# ============================================================
+name: gastofacil
+description: "GastoFácil: aplicación móvil para el control de gastos e ingresos personales."
+publish_to: 'none'
+
+version: 1.2.0+4
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Textos de Flutter (calendario, botones) en español.
+  flutter_localizations:
+    sdk: flutter
+
+  # Base de datos SQLite local (Android / iOS).
+  sqflite: ^2.3.0
+  # SQLite para escritorio (Windows / Linux): permite probar la app en la PC.
+  sqflite_common_ffi: ^2.3.0
+  # SQLite para la versión WEB (navegador), con WebAssembly. Semana 7.
+  sqflite_common_ffi_web: '>=0.4.0 <3.0.0'
+  # Unir rutas de archivos de forma segura en cualquier sistema operativo.
+  path: ^1.8.3
+  # Obtener carpetas del dispositivo (para las copias de respaldo).
+  path_provider: ^2.1.0
+  # Formato de fechas y montos en español.  "any" deja que Flutter
+  # elija la versión compatible con flutter_localizations.
+  intl: any
+  # Gráficos (pastel de gastos por categoría).
+  fl_chart: '>=0.66.0 <2.0.0'
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

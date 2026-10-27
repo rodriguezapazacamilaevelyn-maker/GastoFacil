@@ -1,0 +1,2 @@
+# Reglas de calidad de código recomendadas por Flutter.
+include: package:flutter_lints/flutter.yaml
